@@ -16,8 +16,7 @@ repositories {
 }
 
 dependencies {
-
-	compile group: 'org.glassfish.jersey.containers', name: 'jersey-container-servlet-core', version: '2.25.+'
+    compile group: 'org.glassfish.jersey.containers', name: 'jersey-container-servlet-core', version: '2.25.+'
 
     compile group: 'org.slf4j', name: 'slf4j-api', version: '1.7.+'
     testCompile 'junit:junit:4.12'
@@ -25,7 +24,7 @@ dependencies {
 
 gretty {
 
-	httpPort = 9020
-	contextPath = '/samples'
-	servletContainer = 'jetty9'
+    httpPort = 9020
+    contextPath = '/samples'
+    servletContainer = 'jetty9'
 }
