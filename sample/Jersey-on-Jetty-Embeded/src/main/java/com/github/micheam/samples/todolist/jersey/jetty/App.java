@@ -11,7 +11,7 @@ public class App {
 		System.out.println("\"TODO LIST\" Jersey Example with Embeded Jetty Application.");
 
 		ServletContextHandler context = new ServletContextHandler(ServletContextHandler.SESSIONS);
-		context.setContextPath("/");
+		context.setContextPath("/samples");
 
 		Server jettyServer = new Server(9020);
 		jettyServer.setHandler(context);
